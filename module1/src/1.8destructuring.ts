@@ -21,8 +21,8 @@
     }
 
 
-    const {contact, name: { middleName }} = user
-
+    const {contact, name: { middleName : midName}} = user
+    // midName is the destructured of middleName
 
     // Array Destructuring
 
