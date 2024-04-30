@@ -1,3 +1,4 @@
+{
 // learning function
 // Normal function
 
@@ -35,7 +36,7 @@ const myAccount : {
      { 
         return this.balance + balance
         // for string 
-        // return "My Balance ${this.balance + balance}"
+        // return `My Balance ${this.balance + balance}`
     }
 }
 
@@ -45,3 +46,4 @@ const myAccount : {
 const numbers : number[] = [1,2,3,4,5]
 
 const doubleNum : number[] = numbers.map((num : number) : number => num * num)
+}

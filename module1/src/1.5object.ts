@@ -1,4 +1,5 @@
-// object
+{
+    // object
 
 const user : {
     firstName: string;
@@ -38,3 +39,4 @@ const user2 : {
 user2.middleName = 'Juixer'
 // Example of readonly error : user2.isMarried = false
 
+}

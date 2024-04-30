@@ -1,4 +1,5 @@
-// sting
+{
+    // sting
 let firstName: string = "Ashfakul";
 // number
 let id: number = 183 - 43 - 354;
@@ -27,3 +28,4 @@ let studentInfo: [number, string, boolean] = [50, "shanto", true];
 studentInfo[0] = 60
 
 
+}
