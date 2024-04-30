@@ -10,16 +10,21 @@
     address: string;
   };
 
-  const student : Student = {
-    name : 'Ashfakul Islam Shanto',
-    address: 'Magura',
+  const student: Student = {
+    name: "Ashfakul Islam Shanto",
+    address: "Magura",
     age: 25,
     isMarried: true,
     contact: 1834567890,
-  }
+  };
 
+  type Word = string;
 
-   type Word = string;
+  const abc: Word = "xyz";
 
-   const abc : Word = 'xyz';
+  //    function type alias
+
+  type Add = (num1: number , num2 : number) => number
+
+  const add : Add = (num1, num2) => num1 + num2;
 }
