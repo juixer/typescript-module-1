@@ -44,5 +44,11 @@
 
     const manus : GenericTuple<string,number> = [ 'x', 2]
 
-    const roleID : GenericTuple<number,{name : string, married : boolean}> = [12, {name: 'shanto', married: true}]
+    interface User {
+        name: string;
+        married: boolean;
+        age: number;
+    }
+
+    const roleID : GenericTuple<number,User> = [12, {name: 'shanto', married: true, age: 20}]
 }
