@@ -34,9 +34,10 @@
   }
 
 
+
   // rest operator
 
-  const greetFriends = (...friends : string[]) => {
+  const greetFriends = (...friends : string[]) :void => {
 
         friends.forEach( (friend: string) => {
             console.log(`Hi ${friend}`);
