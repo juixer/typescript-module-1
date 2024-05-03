@@ -1,6 +1,6 @@
 {
     // constraint
-    // eita dia needed property gula set kora jai jodi needed er moddhe ekta missing thakle oita jonno error dibe TS
+    // eita dia needed property gula set kora jai jodi needed er moddhe ekta missing thakle oita jonno error dibe TS like this === <T extends {id : number, name : string, email : string}>
 
     const addCourseToStudent = <T extends {id : number, name : string, email : string}> (student : T) => {
         const course = "Next Level Web Development";
