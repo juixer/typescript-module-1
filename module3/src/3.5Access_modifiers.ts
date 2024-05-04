@@ -9,7 +9,7 @@
     constructor(public readonly id : number, public name : string, protected _balance : number) {}
     // for the protected now i can use it in child class
     checkBalance(){
-        console.log(`Your balance is${this._balance}`);
+        console.log(`Your balance is ${this._balance}`);
     }
 
     depositBalance(amount : number) {
